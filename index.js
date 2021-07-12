@@ -1,7 +1,16 @@
 // Code your solution here
+// function findMatching(drivers) {
+//     drivers.filter(name => {
+//         console.log(name)
+//         return name
+//     })
+// }
+
+
 function findMatching(drivers) {
     drivers.filter(object => {
-        return object.name;
+        console.log(object)
+        return object.name
     })
 }
 
